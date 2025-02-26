@@ -1,0 +1,26 @@
+.button-choix {
+  position: absolute;
+  bottom: 26rem;
+  right: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  button {
+    padding: 0.8rem 10rem;
+    background-color: #440f5c;
+    border: var(--border);
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+}

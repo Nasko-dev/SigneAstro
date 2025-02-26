@@ -1,0 +1,62 @@
+.choix-astro {
+  display: flex;
+  align-items: center;
+  height: 65vh;
+
+  .choix-astro-options {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 30rem;
+    margin-left: 150px;
+
+    label {
+      display: flex;
+
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #440f5c;
+      border: var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: white;
+      font-family: var(--font-family2);
+      font-weight: 500;
+
+      &:hover {
+        border-color: #9d1dec;
+      }
+
+      input[type="checkbox"] {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: var(--border);
+        border-radius: 4px;
+        position: relative;
+        transition: all 0.3s ease;
+        margin: 0;
+
+        &:checked {
+          background-color: #9d1dec;
+          border-color: #9d1dec;
+        }
+
+        &:checked::after {
+          content: "";
+          position: absolute;
+          left: 5px;
+          top: 1px;
+          width: 6px;
+          height: 12px;
+          border: solid #fff;
+          border-width: 0 2px 2px 0;
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.vierge-container {
+  .title {
+    position: relative;
+    bottom: 35px;
+    left: 25rem;
+  }
+  .choices {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .back-button {
+    position: absolute;
+    left: 90rem;
+    bottom: 10rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      scale: 1.2;
+      color: #eed8fc;
+      transition: scale 0.3s ease;
+    }
+  }
+
+  .question-retour-button {
+    position: absolute;
+    left: 65rem;
+    bottom: 24rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      scale: 1.1;
+      color: #eed8fc;
+      transition: scale 0.3s ease;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.choix-astro {
+  display: flex;
+  align-items: center;
+  height: 60vh;
+
+  h1 {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+    max-width: 400px;
+  }
+}

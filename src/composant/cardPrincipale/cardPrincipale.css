@@ -1,0 +1,23 @@
+.card-principale {
+  border: solid 1px black;
+  width: 60%;
+  height: 40rem;
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  margin: 8rem auto;
+  border-radius: 10px;
+
+  .card-principale-contenu {
+    display: flex;
+    margin-left: 100px;
+
+    /* .line {
+      position: relative;
+      left: 30%;
+      top: 35px;
+      width: 2px;
+      height: 35rem;
+      background-color: var(--segondary-color);
+    } */
+  }
+}

@@ -1,0 +1,8 @@
+.line {
+  position: absolute;
+  left: 50%;
+  top: 18%;
+  width: 2px;
+  height: 35rem;
+  background-color: var(--segondary-color);
+}

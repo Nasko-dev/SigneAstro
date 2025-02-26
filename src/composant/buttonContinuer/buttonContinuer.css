@@ -1,0 +1,11 @@
+.continuer-btn {
+  position: absolute;
+  bottom: 300px;
+  left: 36rem;
+  background-color: #440f5c;
+  padding: 5px 50px;
+  border: var(--border);
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
