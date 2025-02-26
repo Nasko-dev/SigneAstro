@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# 🌌 Quiz Astro – Testez vos connaissances sur les signes du zodiaque ! 🔮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue dans **Quiz Astro**, l’application ultime pour les passionnés d’astrologie !  
+Que vous soyez un **Bélier intrépide**, une **Vierge perfectionniste** ou un **Poissons rêveur**, ce quiz est fait pour vous.  
 
-Currently, two official plugins are available:
+Chaque signe astrologique a droit à **10 questions uniques**, avec **seulement 2 choix de réponse**.  
+Pensez-vous être incollable sur l’astrologie ? Il est temps de le prouver ! 🌟
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Fonctionnalités
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+✅ **Quiz personnalisé** – Chaque signe astrologique a son propre quiz avec **10 questions exclusives**.  
+✅ **Réponses rapides** – Seulement **2 choix de réponse** par question, pas le temps de tricher ! ⏳  
+✅ **Corrections instantanées** – Découvrez immédiatement si vous avez bon ou faux.  
+✅ **Score en temps réel** – Suivez votre progression et défiez vos amis ! 🏆  
+✅ **Interface fluide & moderne** – Un design propre et agréable, optimisé pour mobile et desktop.  
+✅ **Anecdotes sur l’astrologie** – Apprenez des faits surprenants sur votre signe après chaque question !  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🔧 Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Vous voulez tester l’application sur votre machine ? Voici comment faire en 3 étapes :  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1️⃣ **Clonez le projet**  
+   ```bash
+   git clone git@github.com:Nasko-dev/SigneAstro.git
+   cd quiz-astro
